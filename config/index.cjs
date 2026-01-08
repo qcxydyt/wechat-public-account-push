@@ -8,10 +8,10 @@
 const USER_CONFIG = {
  
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx9a4bdf05456f55cc',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: 'd1a2dc340f5120346030b8221d1492cf',
 
   PROVINCE: '江西',
   CITY: '南昌',
@@ -42,7 +42,7 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2025-10-08' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
