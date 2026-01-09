@@ -16,6 +16,28 @@ const USER_CONFIG = {
   PROVINCE: '江西',
   CITY: '南昌',
 
+  SWITCH: {
+    /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: true,
+
+    /** 每日N句 */
+    // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    CIBA: true,
+    
+    // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    oneTalk: true,
+
+    /** 星座运势 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    horoscope: true,
+  
+    /** 生日消息和节日消息 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    birthdayMessage: true,
+  
+  },
+ 
   USERS: [
     {
       // 想要发送的人的名字
