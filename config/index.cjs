@@ -8,13 +8,13 @@
 const USER_CONFIG = {
  
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx9a4bdf05456f55cc',
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: 'd1a2dc340f5120346030b8221d1492cf',
+  APP_SECRET: '',
 
   PROVINCE: '江西',
-  CITY: '南昌',
+  CITY: '',
 
   SWITCH: {
     /** 每日天气 */
@@ -43,19 +43,19 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '鸭爪主理人',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oR8f17P_TsN_ifnTuPSeFdTVz9Ls',
+      id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'KCzU0CdAdV8vkv3fREdUeYnvZZ2mxW_PCooxvcuOJeQ',
+      useTemplateId: '',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-03',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '鸭爪主理人', year: '2000', date: '10-08',
+          type: '*生日', name: '鸭爪主理人', year: '', date: '10-08',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '鸭爪主理人', year: '2000', date: '11-03',
+          type: '生日', name: '鸭爪主理人', year: '', date: '11-03',
         },
         {
           type: '节日', name: '相识纪念日', year: '2025', date: '10-31',
@@ -79,7 +79,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oR8f17P_TsN_ifnTuPSeFdTVz9Ls',
+      id: '',
     }
   ],
 
